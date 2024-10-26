@@ -1,0 +1,192 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+.nws {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.nws2 {
+    max-width: 1360px;
+    height: auto;
+    padding: 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(227, 221, 221);
+    background-color: white;
+    margin-bottom: 150px;
+}
+.nws3 {
+    width: 180px;
+    height: 34px;
+}
+.fortuna2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nws5 {
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nwsfortuna2 {
+    color: #212529;
+}
+.nwsfortuna {
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+    color: rgb(56, 53, 53);
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+.pubg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.freefire {
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 5rem;
+    margin-bottom: 8px;
+}
+.pubg2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 48px 0px;
+}
+.hero-content-btn {
+    color: white;
+    padding: 10px 13px;
+    background-color: #212529;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.hero-banner {
+    width: 50%;
+}
+.hero-banner-images {
+    width: 624px;
+    height: 434px;
+}
+.instagram {
+    margin-bottom: 150px;
+}
+.premium-title {
+    text-align: center;
+    margin: 3rem 0rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.premium-content {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+        "gamingCard gamingCard dragonCard telvezonCard"
+        "gamingCard gamingCard colsaCard wdCard";
+}
+.gaming-card {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    text-align: center;
+    grid-area: gamingCard;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+.premium-box {
+    width: 308px;
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.dragon-card {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    position: relative;
+    overflow: hidden;
+    grid-area: dragonCard;
+}
+.premium-box {
+    width: 308px;
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.telvezor-card {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    position: relative;
+    overflow: hidden;
+    grid-area: telvezonCard;
+}
+.premium-box {
+    width: 308px;
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.colsa-card {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    position: relative;
+    overflow: hidden;
+    grid-area: colsaCard;
+}
+.premium-box {
+    width: 308px;
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.wd-card {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    position: relative;
+    overflow: hidden;
+    grid-area: wdCard;
+}
+.premium-images-gaming {
+    padding-top: 50px;
+    width: 576px;
+    height: auto;
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+.salom {
+    color: white;
+    font-weight: 500;
+}
+.pubg0 {
+    width: 268px;
+    height: 210px;
+}
+.fortuna{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(27, 24, 24);
+    position: absolute;
+    }
